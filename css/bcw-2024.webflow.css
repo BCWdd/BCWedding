@@ -1018,6 +1018,55 @@
   font-size: 10px;
 }
 
+.cnt-features-left {
+  grid-column-gap: 40px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: stretch;
+  width: 520px;
+  display: grid;
+  position: relative;
+}
+
+.grp-metric {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.h2-left {
+  color: var(--elements-webflow-library--neutral--600);
+  font-family: Oswald, sans-serif;
+  font-size: 75px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.p1-left-2 {
+  font-family: Open Sans, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.h2-center {
+  color: #000;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 120%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
 @media screen and (min-width: 1280px) {
   .button-2, .nav-link {
     font-size: 13px;
@@ -1062,6 +1111,10 @@
     margin-top: -120px;
   }
 
+  .container-5 {
+    font-size: 12px;
+  }
+
   .waves-master-image-hero-3 {
     height: auto;
   }
@@ -1086,6 +1139,18 @@
 
   .body {
     height: 100%;
+  }
+
+  .h2-left {
+    color: var(--elements-webflow-library--neutral--600);
+    font-family: Oswald, sans-serif;
+    font-size: 75px;
+    font-weight: 300;
+  }
+
+  .p1-left-2 {
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
   }
 }
 
@@ -1482,6 +1547,10 @@
     font-size: 15px;
     line-height: 20px;
   }
+
+  .cnt-features-left {
+    width: 480px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1746,6 +1815,23 @@
   .box {
     margin-bottom: 10px;
   }
+
+  .cnt-features-left {
+    grid-column-gap: 16px;
+    width: 280px;
+  }
+
+  .h2-left {
+    font-size: 32px;
+  }
+
+  .p1-left-2 {
+    font-size: 12px;
+  }
+
+  .h2-center {
+    font-size: 32px;
+  }
 }
 
 #w-node-d908592f-735d-4c81-cf69-9893d2c172e5-064e2e4b {
@@ -1763,10 +1849,6 @@
 
 #w-node-_71f89c6c-f933-6b42-5ab3-74e29fbda4d5-064e2e4b {
   grid-area: 1 / 4 / 2 / 5;
-}
-
-#w-node-_178d9187-24fb-d003-ddcc-ff899da82862-064e2e4b {
-  grid-area: 1 / 1 / 2 / 2;
 }
 
 #w-node-_98294933-c6bf-e4bf-bc49-5c0518ed3b22-064e2e4b {
