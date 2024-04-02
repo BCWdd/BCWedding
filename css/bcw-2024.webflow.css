@@ -982,6 +982,42 @@
   height: 400px;
 }
 
+.js-clock {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.box {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+}
+
+.clock-number-2 {
+  color: var(--elements-webflow-library--neutral--600);
+  font-family: Oswald, sans-serif;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 70px;
+}
+
+.clock-label-2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-right: -5px;
+  font-size: 10px;
+}
+
 @media screen and (min-width: 1280px) {
   .button-2, .nav-link {
     font-size: 13px;
@@ -1701,6 +1737,14 @@
 
   .menu-button.w--open {
     background-color: #eabf8b;
+  }
+
+  .js-clock {
+    flex-wrap: wrap;
+  }
+
+  .box {
+    margin-bottom: 10px;
   }
 }
 
